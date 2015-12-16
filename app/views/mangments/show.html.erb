@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @mangment.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @mangment.description %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @mangment.age %>
+</p>
+
+
+<%= link_to 'Edit', edit_mangment_path(@mangment) %> |
+<%= link_to 'Back', mangments_path %>
